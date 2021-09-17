@@ -1,4 +1,5 @@
-
+/*
+//1
 const AGE = +prompt("What is your age?");
 //alert( typeof AGE);
 if (AGE >= 0 && AGE <= 2) {
@@ -13,8 +14,7 @@ if (AGE >= 0 && AGE <= 2) {
     alert("Incorrect input");
 }
 
-/*----------------------------------------------*/
-
+//2
 const num = +prompt("Input number [0,..,9]");
 switch (num) {
     case 0:
@@ -51,8 +51,7 @@ switch (num) {
         alert("Incorrect input");
 }
 
-/*----------------------------------------------*/
-
+//3
 var number = +prompt( "Enter a 3-digit number:");
 var number1 =  parseInt(number / 100);
 //alert(number1);
@@ -63,8 +62,7 @@ if(number1===number2 || number2===number3 || number1===number3)
 else
     alert("The numbers match was not found");
 
-/*----------------------------------------------*/
-
+//4
 var year= +prompt( "Enter a year:");
 if (year % 4 == 0 || year % 100 != 0 && year % 400 == 0) {
     alert("Leap year ");
@@ -73,8 +71,7 @@ else {
     alert("Not leap year ");
 }
 
-/*----------------------------------------------*/
-
+//5
 var numb= +prompt( "Enter a 5-digit number:");
 var numb1 =  parseInt(numb/ 10000);
 var numb2 = parseInt(numb / 1000) % 10;
@@ -85,5 +82,34 @@ if(numb1===numb5 && numb2===numb4)
     alert("The number is palindrome");
 else
     alert("The number is not palindrome");
+//6
+var money = +prompt( "Enter the USD amount:");
+var curr = prompt( "Which currency you want  (EUR, UAN, AZN):");
+var EUR =0.85;
+var UAN = 26.69;
+var AZN =1.70;
+if (curr=="EUR"){
+    alert(money*EUR +""+curr);
+}
+else
+if (curr=="UAN"){
+    alert(money*UAN +""+curr);
+}
+else
+if (curr=="AZN"){
+    alert(money*AZN +""+curr);
+}
+alert(money*AZN +""+curr);
 
-/*----------------------------------------------*/
+//7
+const mon_sum = +prompt("Input your sum:");
+if (mon_sum >= 200 && mon_sum < 300) {
+    alert((mon_sum/100)*97);
+} else if (mon_sum >= 300 && mon_sum < 500) {
+    alert((mon_sum/100)*95);
+}
+else if (mon_sum >= 500) {
+    alert((mon_sum/100)*93);
+}
+ */
+//8
