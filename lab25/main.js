@@ -1,4 +1,4 @@
-/*
+
 //1
 const AGE = +prompt("What is your age?");
 //alert( typeof AGE);
@@ -111,5 +111,35 @@ if (mon_sum >= 200 && mon_sum < 300) {
 else if (mon_sum >= 500) {
     alert((mon_sum/100)*93);
 }
- */
+
 //8
+const circ = +prompt("Input circle length:");
+const sqr = +prompt("Input square perimeter:")
+alert(200/3.14<300/4);
+if(circ/3.14<sqr/4){
+    alert("Can")
+} else
+    alert("Can't");
+
+//9
+var count=0;
+const frst = +prompt("2+2=");
+if(frst==4){
+    count+=2;
+}
+const scd = prompt("Today's month:");
+if(scd=="september" ||scd=="September" ){
+    count+=2;
+}
+const thd = +prompt("200/50:");
+if(thd==4){
+    count+=2;
+}
+alert("You have scored " +count +" points!" );
+
+ //10
+let day = prompt("Input date (example Feb 29, 2000):");
+//alert(typeof day);
+var nextDay = new Date(day);
+nextDay.setDate(nextDay.getDate() + 1);
+alert("Next day: "+nextDay);
