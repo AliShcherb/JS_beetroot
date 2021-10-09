@@ -140,7 +140,9 @@ hr {
 }
 .background-img{
     z-index: 1;
+    margin-left: -215px;
 }
-.photo{
+.photo-left{
     z-index:2;
+    margin-top: -401px;
 }
