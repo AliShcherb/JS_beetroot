@@ -1,0 +1,146 @@
+@font-face {
+    font-family: 'gothambold';
+    src: url('../fonts/gothambold-webfont.woff2') format('woff2'),
+    url('../fonts/gothambold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'gothambook';
+    src: url('../fonts/gothambook-webfont.woff2') format('woff2'),
+    url('../fonts/gothambook-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.header {
+    height: 100vh;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+nav > * {
+    position: relative;
+    display: block;
+    z-index: 2;
+}
+
+.wrap {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.nav__menu {
+    margin: 0px;
+
+}
+.nav__menu li{
+    display: inline;
+    margin-right: 70px;
+
+}
+.nav__menu li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: gothambook, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+.fa-circle{
+    color: #ffffff;
+    font-family: gothambook, sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+}
+.fa-angle-down{
+    color: #ffffff;
+    font-family: gothambook, sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+}
+.menu__link{
+    color: #ffffff;
+    font-family: gothambook, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin-right: 25px;
+}
+
+.slider {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    padding: 0px;
+    margin: 0px;
+}
+.slider__slide{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction:column;
+}
+.slider__slide h1{
+    color: #ffffff;
+    font-family: gothambold,sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 4px;
+}
+.slider__slide h2 {
+    color: #ffffff;
+    font-family: gothambook, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 5px;
+}
+.splide__slide div {
+    width: 100%;
+    background-image: url("../images/background_intro.png");
+    background-size: cover;
+    height: 100vh;
+}
+hr {
+    width: 100px;
+    height: 1px;
+    background-color:#2c4058;
+    margin-bottom: 42px;
+}
+.title{
+    color: #2c4058;
+    font-family: gothambold,sans-serif;
+    font-size: 44px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 22px;
+}
+.what-we-do__header{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction:column;
+}
+.what-we-do__left{
+    margin: 100px 0 140px 0;
+}
+.what-we-do{
+    padding: 140px 215px;
+}
+.background-img{
+    z-index: 1;
+}
+.photo{
+    z-index:2;
+}
